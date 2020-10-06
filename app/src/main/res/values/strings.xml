@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Latihan_Intent</string>
+    <string name="pindahActivity">Pindah ke satu activity</string>
+    <string name="pindahActivtiyWithData">Pindah Activity Dengan Data</string>
+    <string name="received_dta">Menerima Data</string>
+    <string name="moveActivityWithDataParcebel">Pindah Activity Dengan Data Parcabel</string>
+    <string name="pindah_ke_activity_satu_dengan_data">Pindah Ke Activity Satu Dengan Data</string>
+</resources>

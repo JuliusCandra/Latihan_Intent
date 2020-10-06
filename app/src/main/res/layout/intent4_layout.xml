@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Angka yang anda suka"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp" />
+
+    <RadioGroup
+        android:id="@+id/rgNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50"
+            android:layout_marginBottom="16dp"
+            />
+        <RadioButton
+            android:id="@+id/rb_100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_marginBottom="16dp"
+            />
+        <RadioButton
+            android:id="@+id/rb_150"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150"
+            android:layout_marginBottom="16dp"
+            />
+        <RadioButton
+            android:id="@+id/rb_200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:layout_marginBottom="16dp"
+            />
+<Button
+    android:background="@android:color/holo_blue_bright"
+    android:id="@+id/chooseButon"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pilih Angka"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"
+    android:layout_gravity="center" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
